@@ -207,7 +207,7 @@
             "last_commit": "2026-02-27T13:12:11Z",
             "owner": "Alibaba-NLP",
             "repo": "DeepResearch",
-            "stars": 19829
+            "stars": 19831
           }
         },
         {
@@ -221,7 +221,7 @@
             "last_commit": "2026-02-27T13:12:11Z",
             "owner": "Alibaba-NLP",
             "repo": "DeepResearch",
-            "stars": 19829
+            "stars": 19831
           }
         },
         {
@@ -235,7 +235,7 @@
             "last_commit": "2026-02-27T13:12:11Z",
             "owner": "Alibaba-NLP",
             "repo": "DeepResearch",
-            "stars": 19829
+            "stars": 19831
           }
         },
         {
@@ -249,7 +249,7 @@
             "last_commit": "2026-02-27T13:12:11Z",
             "owner": "Alibaba-NLP",
             "repo": "DeepResearch",
-            "stars": 19829
+            "stars": 19831
           }
         },
         {
@@ -263,7 +263,7 @@
             "last_commit": "2025-11-13T21:56:33Z",
             "owner": "PeterGriffinJin",
             "repo": "Search-R1",
-            "stars": 5293
+            "stars": 5297
           }
         },
         {
@@ -291,7 +291,7 @@
             "last_commit": "2025-11-26T06:28:16Z",
             "owner": "inclusionAI",
             "repo": "ASearcher",
-            "stars": 606
+            "stars": 607
           }
         },
         {
@@ -305,7 +305,7 @@
             "last_commit": "2025-06-06T03:19:56Z",
             "owner": "THUDM",
             "repo": "WebRL",
-            "stars": 538
+            "stars": 539
           }
         },
         {
@@ -808,7 +808,7 @@
             "last_commit": "2025-11-16T20:16:05Z",
             "owner": "lmgame-org",
             "repo": "GamingAgent",
-            "stars": 965
+            "stars": 967
           }
         },
         {
@@ -960,7 +960,7 @@
             "last_commit": "2026-03-18T17:36:06Z",
             "owner": "sierra-research",
             "repo": "tau-bench",
-            "stars": 1381
+            "stars": 1382
           }
         },
         {
@@ -974,7 +974,7 @@
             "last_commit": "2025-11-17T20:31:16Z",
             "owner": "TheAgentCompany",
             "repo": "TheAgentCompany",
-            "stars": 762
+            "stars": 764
           }
         },
         {
@@ -988,7 +988,7 @@
             "last_commit": "2026-04-25T18:29:28Z",
             "owner": "ServiceNow",
             "repo": "WorkArena",
-            "stars": 266
+            "stars": 267
           }
         }
       ],
@@ -1001,7 +1001,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T03:22:46.122Z",
+    "last_updated": "2026-08-16T03:32:02.930Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",
     "enhanced_repository": "enhansome/enhansome-Awesome-Agent-RL",

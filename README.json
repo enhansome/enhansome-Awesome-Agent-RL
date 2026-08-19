@@ -1,1008 +1,1082 @@
 {
   "items": [
     {
-      "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",
-      "items": [],
-      "title": "Awesome-Agent-Reward-Construction"
-    },
-    {
       "description": "Scaling task quantities through constructing new verifiable task gyms, such as puzzles, games. Training agents to solve these task can enhance model general reasoning capabilities. We divided Reward Construction research to 4 types, including Multi-Modal Reasoning, Text-Based Puzzle Solving, Zero-Sum Games, Converting Open-Domain Tasks to Verifiable Tasks and Curriculum Learning.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Code2Logic: Game-Code-Driven Data Synthesis for Enhancing VLMs General Reasoning (Fudan University, Douyin Co., Ltd., Shanghai Innovation Institute, Shanghai Key Laboratory of Intelligent Information Processing, Institute of Modern Languages, Fudan University, Southern University of Science and Technology) - Using game code to synthesize verifiable multi-modal reasoning data for improving VLM general reasoning through RL",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 984547583,
+                "language": "Python",
+                "last_commit": "2026-08-08T07:51:00Z",
+                "owner": "tongjingqi",
+                "repo": "Game-RL",
+                "stars": 159
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "Play to Generalize: Learning to Reason Through Game Play (Rice University, Johns Hopkins University, NVIDIA) - Training expert models on Snake game to provide ground truth for multi-modal reasoning rewards, improving general reasoning capabilities through RL",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 992585944,
+                "language": "Python",
+                "last_commit": "2026-02-04T14:50:32Z",
+                "owner": "yunfeixie233",
+                "repo": "ViGaL",
+                "stars": 70
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Multi-Modal Reasoning"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2508]",
+              "description": "InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling (Shanghai AI Laboratory, Fudan University) - Advanced reasoning through structured thinking processes",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 979788576,
+                "language": "Python",
+                "last_commit": "2026-08-12T13:13:22Z",
+                "owner": "InternLM",
+                "repo": "InternBootcamp",
+                "stars": 350
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (The Hong Kong University of Science and Technology, MiniMax, The City University of Hong Kong) - Systematic approach to generating logical reasoning data",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 989099579,
+                "language": "Python",
+                "last_commit": "2025-07-07T06:03:03Z",
+                "owner": "MiniMax-AI",
+                "repo": "SynLogic",
+                "stars": 207
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles (ByteDance Seed, Fudan University, Institute for AI Industry Research (AIR), Tsinghua University, Nanjing University, Shanghai Jiao Tong University, SIA-Lab of Tsinghua AIR and ByteDance Seed) - Creating synthetic puzzles to enhance logical reasoning capabilities",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 991168680,
+                "language": "Python",
+                "last_commit": "2025-08-13T09:17:15Z",
+                "owner": "BytedTsinghua-SIA",
+                "repo": "Enigmata",
+                "stars": 83
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Text-Based Puzzle Solving"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "RLPR: Extrapolating RLVR to General Domains without Verifiers (Tsinghua University, National University of Singapore, Shanghai Qi Zhi Institute, Harbin Institute of Technology, Beijing University of Posts and Telecommunications, University of Illinois Urbana-Champaign) - Extending reinforcement learning from verifiable reasoning to general domains",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1006808777,
+                "language": "Python",
+                "last_commit": "2025-08-12T14:45:33Z",
+                "owner": "OpenBMB",
+                "repo": "RLPR",
+                "stars": 205
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Reinforcing General Reasoning without Verifiers (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China) - General reasoning enhancement without explicit verification mechanisms",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 990769282,
+                "language": "Python",
+                "last_commit": "2025-06-24T03:46:10Z",
+                "owner": "sail-sg",
+                "repo": "VeriFree",
+                "stars": 102
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(COLM'25) [2503]",
+              "description": "Learning to Reason for Long-Form Story Generation (University of Edinburgh) - Constructing next chapter prediction tasks for story generation, using subsequent chapters as ground truth for reward construction",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 956011158,
+                "language": "Python",
+                "last_commit": "2025-04-19T13:52:15Z",
+                "owner": "Alex-Gurung",
+                "repo": "ReasoningNCP",
+                "stars": 78
+              }
+            }
+          ],
+          "description": "Transforming general tasks which usually trained through Pretraining and SFT, into RL-compatible formats.",
+          "node_type": "group",
+          "title": "Converting General Tasks to Verifiable Tasks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(ICML'24) [2402]",
+              "description": "Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning (Fudan University, ByteDance Research) - The paper introduces R³, a method that uses reverse curriculum reinforcement learning to transform sparse outcome supervision into step-level supervisory signals, enhancing reasoning in large language models without requiring extensive manual annotations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 754690615,
+                "language": "Python",
+                "last_commit": "2024-02-09T11:35:06Z",
+                "owner": "WooooDyy",
+                "repo": "LLM-Reverse-Curriculum-RL",
+                "stars": 117
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICLR'24) [2405]",
+              "description": "Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in Reinforcement Learning (University of California, San Diego) - The paper introduces the Reverse Forward Curriculum Learning (RFCL) algorithm, which enhances reward construction for AI agents by leveraging a reverse curriculum to train an initial policy on a narrow state distribution and a forward curriculum to generalize it, significantly improving demonstration and sample efficiency without relying on engineered dense reward signals.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 710031910,
+                "language": "Python",
+                "last_commit": "2024-11-28T08:45:30Z",
+                "owner": "StoneT2000",
+                "repo": "rfcl",
+                "stars": 62
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "UFT: Unifying Supervised and Reinforcement Fine-Tuning (Massachusetts Institute of Technology) - The paper introduces Unified Fine-Tuning (UFT), which integrates supervision from SFT and reward from RFT into a single training paradigm, blending reward optimization with log-likelihood maximization on hints to enable simultaneous exploration and learning, addressing the trade-off between memorization and generalization.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 988724617,
+                "language": "Python",
+                "last_commit": "2025-06-30T22:33:52Z",
+                "owner": "liumy2010",
+                "repo": "UFT",
+                "stars": 32
+              }
+            }
+          ],
+          "description": "Scaling difficuity of task through curriculum learning, converting sparse reward to dense reward.",
+          "node_type": "group",
+          "title": "Curriculum Learning"
+        }
+      ],
       "title": "Synthesizing Verifiable Task"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Code2Logic: Game-Code-Driven Data Synthesis for Enhancing VLMs General Reasoning (Fudan University, Douyin Co., Ltd., Shanghai Innovation Institute, Shanghai Key Laboratory of Intelligent Information Processing, Institute of Modern Languages, Fudan University, Southern University of Science and Technology) - Using game code to synthesize verifiable multi-modal reasoning data for improving VLM general reasoning through RL",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-08T07:51:00Z",
-            "owner": "tongjingqi",
-            "repo": "Game-RL",
-            "stars": 159
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2506]",
-          "description": "Play to Generalize: Learning to Reason Through Game Play (Rice University, Johns Hopkins University, NVIDIA) - Training expert models on Snake game to provide ground truth for multi-modal reasoning rewards, improving general reasoning capabilities through RL",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-04T14:50:32Z",
-            "owner": "yunfeixie233",
-            "repo": "ViGaL",
-            "stars": 70
-          }
-        }
-      ],
-      "title": "Multi-Modal Reasoning"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2508]",
-          "description": "InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling (Shanghai AI Laboratory, Fudan University) - Advanced reasoning through structured thinking processes",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-12T13:13:22Z",
-            "owner": "InternLM",
-            "repo": "InternBootcamp",
-            "stars": 350
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (The Hong Kong University of Science and Technology, MiniMax, The City University of Hong Kong) - Systematic approach to generating logical reasoning data",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-07T06:03:03Z",
-            "owner": "MiniMax-AI",
-            "repo": "SynLogic",
-            "stars": 207
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles (ByteDance Seed, Fudan University, Institute for AI Industry Research (AIR), Tsinghua University, Nanjing University, Shanghai Jiao Tong University, SIA-Lab of Tsinghua AIR and ByteDance Seed) - Creating synthetic puzzles to enhance logical reasoning capabilities",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-08-13T09:17:15Z",
-            "owner": "BytedTsinghua-SIA",
-            "repo": "Enigmata",
-            "stars": 83
-          }
-        }
-      ],
-      "title": "Text-Based Puzzle Solving"
-    },
-    {
-      "description": "Transforming general tasks which usually trained through Pretraining and SFT, into RL-compatible formats.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2506]",
-          "description": "RLPR: Extrapolating RLVR to General Domains without Verifiers (Tsinghua University, National University of Singapore, Shanghai Qi Zhi Institute, Harbin Institute of Technology, Beijing University of Posts and Telecommunications, University of Illinois Urbana-Champaign) - Extending reinforcement learning from verifiable reasoning to general domains",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-08-12T14:45:33Z",
-            "owner": "OpenBMB",
-            "repo": "RLPR",
-            "stars": 205
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Reinforcing General Reasoning without Verifiers (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China) - General reasoning enhancement without explicit verification mechanisms",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-24T03:46:10Z",
-            "owner": "sail-sg",
-            "repo": "VeriFree",
-            "stars": 102
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(COLM'25) [2503]",
-          "description": "Learning to Reason for Long-Form Story Generation (University of Edinburgh) - Constructing next chapter prediction tasks for story generation, using subsequent chapters as ground truth for reward construction",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-04-19T13:52:15Z",
-            "owner": "Alex-Gurung",
-            "repo": "ReasoningNCP",
-            "stars": 78
-          }
-        }
-      ],
-      "title": "Converting General Tasks to Verifiable Tasks"
-    },
-    {
-      "description": "Scaling difficuity of task through curriculum learning, converting sparse reward to dense reward.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(ICML'24) [2402]",
-          "description": "Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning (Fudan University, ByteDance Research) - The paper introduces R³, a method that uses reverse curriculum reinforcement learning to transform sparse outcome supervision into step-level supervisory signals, enhancing reasoning in large language models without requiring extensive manual annotations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-02-09T11:35:06Z",
-            "owner": "WooooDyy",
-            "repo": "LLM-Reverse-Curriculum-RL",
-            "stars": 117
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICLR'24) [2405]",
-          "description": "Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in Reinforcement Learning (University of California, San Diego) - The paper introduces the Reverse Forward Curriculum Learning (RFCL) algorithm, which enhances reward construction for AI agents by leveraging a reverse curriculum to train an initial policy on a narrow state distribution and a forward curriculum to generalize it, significantly improving demonstration and sample efficiency without relying on engineered dense reward signals.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-11-28T08:45:30Z",
-            "owner": "StoneT2000",
-            "repo": "rfcl",
-            "stars": 63
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "UFT: Unifying Supervised and Reinforcement Fine-Tuning (Massachusetts Institute of Technology) - The paper introduces Unified Fine-Tuning (UFT), which integrates supervision from SFT and reward from RFT into a single training paradigm, blending reward optimization with log-likelihood maximization on hints to enable simultaneous exploration and learning, addressing the trade-off between memorization and generalization.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-30T22:33:52Z",
-            "owner": "liumy2010",
-            "repo": "UFT",
-            "stars": 32
-          }
-        }
-      ],
-      "title": "Curriculum Learning"
-    },
-    {
       "description": "Design reward function and synthesis data to scale up the quantities of the real-world reward. We divided Real-World Task Reward Construction research into 4 types, including Web Search, GUI, VLA and World Model.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "WebDancer: Towards Autonomous Information Seeking Agency (Tongyi Lab, Alibaba Group) - Synthesizing agent action trajectories for search tasks, constructing verifiable QA pairs for RL training on information seeking",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 914316754,
+                "language": "Python",
+                "last_commit": "2026-02-27T13:12:11Z",
+                "owner": "Alibaba-NLP",
+                "repo": "DeepResearch",
+                "stars": 19849
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2507]",
+              "description": "WebSailor: Navigating Super-human Reasoning for Web Agent (Tongyi Lab, Alibaba Group) - The paper's main contribution is the development of WebSailor, a post-training methodology that enhances AI agents' reward construction by generating high-uncertainty tasks and using an efficient RL algorithm, Duplicating Sampling Policy Optimization (DUPO), to match proprietary agents' performance in complex information-seeking tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 914316754,
+                "language": "Python",
+                "last_commit": "2026-02-27T13:12:11Z",
+                "owner": "Alibaba-NLP",
+                "repo": "DeepResearch",
+                "stars": 19849
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2507]",
+              "description": "WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization (Tongyi Lab, Alibaba Group) - Formalization-driven data synthesis framework for information-seeking tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 914316754,
+                "language": "Python",
+                "last_commit": "2026-02-27T13:12:11Z",
+                "owner": "Alibaba-NLP",
+                "repo": "DeepResearch",
+                "stars": 19849
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2508]",
+              "description": "WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent (Tongyi Lab, Alibaba Group) - The paper's main contribution regarding reward construction for AI agents is the development of a reinforcement learning approach using Group-Relative Policy Optimization (GRPO) with a reward function that balances format conformance and semantic accuracy, enhancing decision-making for multimodal deep research tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 914316754,
+                "language": "Python",
+                "last_commit": "2026-02-27T13:12:11Z",
+                "owner": "Alibaba-NLP",
+                "repo": "DeepResearch",
+                "stars": 19849
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(COLM'25) [2503]",
+              "description": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning (University of Illinois at Urbana-Champaign, University of Massachusetts Amherst, Google Cloud AI Research) - Search-R1 introduces a reinforcement learning approach that enables large language models to autonomously generate search queries during reasoning, using a simple outcome-based reward function to optimize multi-turn search interactions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 940662305,
+                "language": "Python",
+                "last_commit": "2025-11-13T21:56:33Z",
+                "owner": "PeterGriffinJin",
+                "repo": "Search-R1",
+                "stars": 5310
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability (Renmin University of China, BAAI, Huawei Poisson Lab) - The paper introduces an RL-based training strategy using iterative online Direct Preference Optimization (DPO) to enhance large reasoning models' ability to effectively utilize research tools by constructing preference pairs based on accuracy, tool usage, and output quality from sampled reasoning trajectories.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 956332356,
+                "language": "Python",
+                "last_commit": "2025-12-08T03:40:49Z",
+                "owner": "RUC-NLPIR",
+                "repo": "WebThinker",
+                "stars": 1467
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2508]",
+              "description": "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL (IIIS, Tsinghua University, Ant Research, RL Lab, University of Washington) - The paper introduces ASearcher, which employs a sparse-reward setting where rewards are computed at trajectory completion, using a combination of format reward and F1 score for base LLMs and LLM-as-Judge for fine-tuning large reasoning models, to enhance search intelligence in AI agents through reinforcement learning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1032362388,
+                "language": "Python",
+                "last_commit": "2025-11-26T06:28:16Z",
+                "owner": "inclusionAI",
+                "repo": "ASearcher",
+                "stars": 608
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICLR'25) [2411]",
+              "description": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning (Tsinghua University, Zhipu AI) - The paper introduces a robust outcome-supervised reward model (ORM) within the WEB RL framework to evaluate task success and provide binary reward signals, addressing the sparsity and cost of feedback signals in training LLM-based web agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 881763976,
+                "language": "Python",
+                "last_commit": "2025-06-06T03:19:56Z",
+                "owner": "THUDM",
+                "repo": "WebRL",
+                "stars": 539
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICLR'25) [2408]",
+              "description": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents (The AGI Company (MultiOn), Stanford University) - Combination of DPO, MCTS, and process supervision for web navigation tasks with multi-modal reasoning rewards",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 846848530,
+                "language": "Python",
+                "last_commit": "2024-09-26T08:41:39Z",
+                "owner": "sentient-engineering",
+                "repo": "agent-q",
+                "stars": 508
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Web Search"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning (Tsinghua University, Renmin University of China, ModelBest Inc.) - The paper's main contribution is the development of a reinforcement fine-tuning stage using Group Relative Policy Optimization (GRPO) to enhance the reasoning and decision-making capabilities of AgentCPM-GUI, enabling robust performance on complex, long-horizon GUI tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 982552795,
+                "language": "Python",
+                "last_commit": "2026-01-11T08:24:15Z",
+                "owner": "OpenBMB",
+                "repo": "AgentCPM-GUI",
+                "stars": 1404
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, National University of Singapore) - The paper introduces GUI-R1, which designs a rule-based unified action space reward function to evaluate and enhance the accuracy of predicted GUI actions across different platforms and task granularities, improving the performance of large vision-language models with significantly less data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 968501809,
+                "language": "Python",
+                "last_commit": "2025-05-05T14:44:21Z",
+                "owner": "ritzz-ai",
+                "repo": "GUI-R1",
+                "stars": 255
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ACL'25) [2412]",
+              "description": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis (Shanghai AI Laboratory, The University of Hong Kong, Johns Hopkins University, Shanghai Jiao Tong University, University of Oxford, Hong Kong University of Science and Technology) - The paper introduces a Trajectory Reward Model (TRM) in the OS-Genesis pipeline, which uses a graded evaluation with scores from 1 to 5 to assess trajectory quality based on completion and coherence, enhancing the training of GUI agents by effectively utilizing both complete and incomplete trajectories.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 905633431,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-10-08T18:10:24Z",
+                "owner": "OS-Copilot",
+                "repo": "OS-Genesis",
+                "stars": 190
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay (The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology) - The paper's main contribution is the introduction of Agentic Replay Policy Optimization (ARPO), which enhances reward construction for AI agents by integrating a replay buffer with Group Relative Policy Optimization to reuse successful experiences and stabilize training in sparse-reward GUI environments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 987465210,
+                "language": "Python",
+                "last_commit": "2025-05-29T07:09:20Z",
+                "owner": "JIA-Lab-research",
+                "repo": "ARPO",
+                "stars": 163
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents (UC Berkeley) - AgentSynth's main contribution is a scalable and cost-efficient pipeline that automatically synthesizes diverse and realistic tasks for generalist computer-use agents by leveraging information asymmetry to create challenging long-horizon tasks from simple subtasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 984313646,
+                "language": "Python",
+                "last_commit": "2026-04-17T01:26:27Z",
+                "owner": "sunblaze-ucb",
+                "repo": "AgentSynth",
+                "stars": 49
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "GUI"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning (Tsinghua Shenzhen International Graduate School, Tsinghua University, School of Electrical and Electronic Engineering, Nanyang Technological University) - Reward design in embodied AI systems",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 963922584,
+                "language": "Python",
+                "last_commit": "2025-11-08T20:33:05Z",
+                "owner": "GuanxingLu",
+                "repo": "vlarl",
+                "stars": 450
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "What Can RL Bring to VLA Generalization? (Tsinghua University, Shanghai Qi Zhi Institute, Beijing Zhongguancun Academy) - The paper's main contribution is developing an efficient PPO-based RL fine-tuning recipe that significantly enhances VLA generalization in semantic understanding and execution robustness compared to SFT, while maintaining comparable visual robustness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 986790552,
+                "language": "Python",
+                "last_commit": "2025-08-25T14:03:57Z",
+                "owner": "gen-robot",
+                "repo": "RL4VLA",
+                "stars": 285
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Interactive Post-Training for Vision-Language-Action Models (UT Austin, Nankai University) - RIPT-VLA's main contribution is a reinforcement learning paradigm that fine-tunes pretrained Vision-Language-Action models using only sparse binary success rewards, enabling stable and data-efficient optimization without the need for shaped rewards, value functions, or reward modeling.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 986446827,
+                "language": "Python",
+                "last_commit": "2025-06-04T17:03:50Z",
+                "owner": "Ariostgx",
+                "repo": "ript-vla",
+                "stars": 169
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Embodied AI & Vision-Language-Action Model"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2508]",
+              "description": "Matrix-Game 2.0: An Open-Source, Real-Time, andStreaming Interactive World Model (Skywork AI) - Matrix-Game 2.0 for real-time interactive video generation",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 978649191,
+                "language": "Python",
+                "last_commit": "2026-03-30T06:32:00Z",
+                "owner": "SkyworkAI",
+                "repo": "Matrix-Game",
+                "stars": 2305
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ACL'24) [2406]",
+              "description": "Can Language Models Serve as Text-Based World Simulators? (University of Arizona, New York University, Johns Hopkins University, Microsoft Research Montréal, Allen Institute for AI) - Exploring LLMs as world simulators for reward construction",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 813186723,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-06-12T19:13:34Z",
+                "owner": "cognitiveailab",
+                "repo": "GPT-simulator",
+                "stars": 33
+              }
+            }
+          ],
+          "description": "Towards future: Using world models and real-world interactions for reward construction.",
+          "node_type": "group",
+          "title": "World Model"
+        }
+      ],
       "title": "Real-World Task Reward Construction"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "WebDancer: Towards Autonomous Information Seeking Agency (Tongyi Lab, Alibaba Group) - Synthesizing agent action trajectories for search tasks, constructing verifiable QA pairs for RL training on information seeking",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-27T13:12:11Z",
-            "owner": "Alibaba-NLP",
-            "repo": "DeepResearch",
-            "stars": 19846
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2507]",
-          "description": "WebSailor: Navigating Super-human Reasoning for Web Agent (Tongyi Lab, Alibaba Group) - The paper's main contribution is the development of WebSailor, a post-training methodology that enhances AI agents' reward construction by generating high-uncertainty tasks and using an efficient RL algorithm, Duplicating Sampling Policy Optimization (DUPO), to match proprietary agents' performance in complex information-seeking tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-27T13:12:11Z",
-            "owner": "Alibaba-NLP",
-            "repo": "DeepResearch",
-            "stars": 19846
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2507]",
-          "description": "WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization (Tongyi Lab, Alibaba Group) - Formalization-driven data synthesis framework for information-seeking tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-27T13:12:11Z",
-            "owner": "Alibaba-NLP",
-            "repo": "DeepResearch",
-            "stars": 19846
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2508]",
-          "description": "WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent (Tongyi Lab, Alibaba Group) - The paper's main contribution regarding reward construction for AI agents is the development of a reinforcement learning approach using Group-Relative Policy Optimization (GRPO) with a reward function that balances format conformance and semantic accuracy, enhancing decision-making for multimodal deep research tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-27T13:12:11Z",
-            "owner": "Alibaba-NLP",
-            "repo": "DeepResearch",
-            "stars": 19846
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(COLM'25) [2503]",
-          "description": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning (University of Illinois at Urbana-Champaign, University of Massachusetts Amherst, Google Cloud AI Research) - Search-R1 introduces a reinforcement learning approach that enables large language models to autonomously generate search queries during reasoning, using a simple outcome-based reward function to optimize multi-turn search interactions.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-13T21:56:33Z",
-            "owner": "PeterGriffinJin",
-            "repo": "Search-R1",
-            "stars": 5308
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability (Renmin University of China, BAAI, Huawei Poisson Lab) - The paper introduces an RL-based training strategy using iterative online Direct Preference Optimization (DPO) to enhance large reasoning models' ability to effectively utilize research tools by constructing preference pairs based on accuracy, tool usage, and output quality from sampled reasoning trajectories.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-12-08T03:40:49Z",
-            "owner": "RUC-NLPIR",
-            "repo": "WebThinker",
-            "stars": 1467
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2508]",
-          "description": "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL (IIIS, Tsinghua University, Ant Research, RL Lab, University of Washington) - The paper introduces ASearcher, which employs a sparse-reward setting where rewards are computed at trajectory completion, using a combination of format reward and F1 score for base LLMs and LLM-as-Judge for fine-tuning large reasoning models, to enhance search intelligence in AI agents through reinforcement learning.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-26T06:28:16Z",
-            "owner": "inclusionAI",
-            "repo": "ASearcher",
-            "stars": 608
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICLR'25) [2411]",
-          "description": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning (Tsinghua University, Zhipu AI) - The paper introduces a robust outcome-supervised reward model (ORM) within the WEB RL framework to evaluate task success and provide binary reward signals, addressing the sparsity and cost of feedback signals in training LLM-based web agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-06T03:19:56Z",
-            "owner": "THUDM",
-            "repo": "WebRL",
-            "stars": 539
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICLR'25) [2408]",
-          "description": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents (The AGI Company (MultiOn), Stanford University) - Combination of DPO, MCTS, and process supervision for web navigation tasks with multi-modal reasoning rewards",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-09-26T08:41:39Z",
-            "owner": "sentient-engineering",
-            "repo": "agent-q",
-            "stars": 508
-          }
-        }
-      ],
-      "title": "Web Search"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2506]",
-          "description": "AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning (Tsinghua University, Renmin University of China, ModelBest Inc.) - The paper's main contribution is the development of a reinforcement fine-tuning stage using Group Relative Policy Optimization (GRPO) to enhance the reasoning and decision-making capabilities of AgentCPM-GUI, enabling robust performance on complex, long-horizon GUI tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-11T08:24:15Z",
-            "owner": "OpenBMB",
-            "repo": "AgentCPM-GUI",
-            "stars": 1404
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, National University of Singapore) - The paper introduces GUI-R1, which designs a rule-based unified action space reward function to evaluate and enhance the accuracy of predicted GUI actions across different platforms and task granularities, improving the performance of large vision-language models with significantly less data.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-05-05T14:44:21Z",
-            "owner": "ritzz-ai",
-            "repo": "GUI-R1",
-            "stars": 255
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ACL'25) [2412]",
-          "description": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis (Shanghai AI Laboratory, The University of Hong Kong, Johns Hopkins University, Shanghai Jiao Tong University, University of Oxford, Hong Kong University of Science and Technology) - The paper introduces a Trajectory Reward Model (TRM) in the OS-Genesis pipeline, which uses a graded evaluation with scores from 1 to 5 to assess trajectory quality based on completion and coherence, enhancing the training of GUI agents by effectively utilizing both complete and incomplete trajectories.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-10-08T18:10:24Z",
-            "owner": "OS-Copilot",
-            "repo": "OS-Genesis",
-            "stars": 190
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay (The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology) - The paper's main contribution is the introduction of Agentic Replay Policy Optimization (ARPO), which enhances reward construction for AI agents by integrating a replay buffer with Group Relative Policy Optimization to reuse successful experiences and stabilize training in sparse-reward GUI environments.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-05-29T07:09:20Z",
-            "owner": "JIA-Lab-research",
-            "repo": "ARPO",
-            "stars": 163
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2506]",
-          "description": "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents (UC Berkeley) - AgentSynth's main contribution is a scalable and cost-efficient pipeline that automatically synthesizes diverse and realistic tasks for generalist computer-use agents by leveraging information asymmetry to create challenging long-horizon tasks from simple subtasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-17T01:26:27Z",
-            "owner": "sunblaze-ucb",
-            "repo": "AgentSynth",
-            "stars": 49
-          }
-        }
-      ],
-      "title": "GUI"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning (Tsinghua Shenzhen International Graduate School, Tsinghua University, School of Electrical and Electronic Engineering, Nanyang Technological University) - Reward design in embodied AI systems",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-08T20:33:05Z",
-            "owner": "GuanxingLu",
-            "repo": "vlarl",
-            "stars": 450
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "What Can RL Bring to VLA Generalization? (Tsinghua University, Shanghai Qi Zhi Institute, Beijing Zhongguancun Academy) - The paper's main contribution is developing an efficient PPO-based RL fine-tuning recipe that significantly enhances VLA generalization in semantic understanding and execution robustness compared to SFT, while maintaining comparable visual robustness.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-08-25T14:03:57Z",
-            "owner": "gen-robot",
-            "repo": "RL4VLA",
-            "stars": 285
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Interactive Post-Training for Vision-Language-Action Models (UT Austin, Nankai University) - RIPT-VLA's main contribution is a reinforcement learning paradigm that fine-tunes pretrained Vision-Language-Action models using only sparse binary success rewards, enabling stable and data-efficient optimization without the need for shaped rewards, value functions, or reward modeling.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-04T17:03:50Z",
-            "owner": "Ariostgx",
-            "repo": "ript-vla",
-            "stars": 169
-          }
-        }
-      ],
-      "title": "Embodied AI & Vision-Language-Action Model"
-    },
-    {
-      "description": "Towards future: Using world models and real-world interactions for reward construction.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2508]",
-          "description": "Matrix-Game 2.0: An Open-Source, Real-Time, andStreaming Interactive World Model (Skywork AI) - Matrix-Game 2.0 for real-time interactive video generation",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-30T06:32:00Z",
-            "owner": "SkyworkAI",
-            "repo": "Matrix-Game",
-            "stars": 2304
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ACL'24) [2406]",
-          "description": "Can Language Models Serve as Text-Based World Simulators? (University of Arizona, New York University, Johns Hopkins University, Microsoft Research Montréal, Allen Institute for AI) - Exploring LLMs as world simulators for reward construction",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-06-12T19:13:34Z",
-            "owner": "cognitiveailab",
-            "repo": "GPT-simulator",
-            "stars": 33
-          }
-        }
-      ],
-      "title": "World Model"
-    },
-    {
       "description": "Finding reward signals from model internals. Model generates data to train itself. We divided Unsupervised Reward Construction into 2 types, including Proposer and Solver and the discussion of can Large Reasoning Models Self-Train.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "TTRL: Test-Time Reinforcement Learning (Tsinghua University, Shanghai AI Lab) - The paper introduces Test-Time Reinforcement Learning (TTRL), a novel method that uses majority voting from Test-Time Scaling to construct effective rewards for training Large Language Models on unlabeled data, enabling significant performance improvements.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 971091060,
+                "language": "Python",
+                "last_commit": "2026-04-15T02:47:09Z",
+                "owner": "PRIME-RL",
+                "repo": "TTRL",
+                "stars": 1114
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (Shanghai AI Laboratory, Tsinghua University, UIUC, Peking University, Nanjing University, CUHK) - Understanding how entropy affects reinforcement learning in reasoning models, it indicated that the improvement of self-train may cause by the entropy mechanism.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 991919898,
+                "language": "Python",
+                "last_commit": "2025-07-11T06:47:36Z",
+                "owner": "PRIME-RL",
+                "repo": "Entropy-Mechanism-of-RL",
+                "stars": 450
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Maximizing Confidence Alone Improves Reasoning (Carnegie Mellon University) - The paper introduces RENT, a fully unsupervised reinforcement learning method that uses a model's entropy as an intrinsic reward to improve reasoning by reinforcing chains of thought with high model confidence, eliminating the need for external rewards or ground-truth answers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 987406210,
+                "language": "Python",
+                "last_commit": "2026-01-26T20:13:48Z",
+                "owner": "sunblaze-ucb",
+                "repo": "Intuitor",
+                "stars": 421
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Learning to Reason without External Rewards (UC Berkeley, Yale University) - The paper introduces Intuitor, a method that uses a model's self-certainty as an intrinsic reward signal for unsupervised reinforcement learning, enabling effective reasoning and generalization without external rewards.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 987406210,
+                "language": "Python",
+                "last_commit": "2026-01-26T20:13:48Z",
+                "owner": "sunblaze-ucb",
+                "repo": "Intuitor",
+                "stars": 421
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "Spurious Rewards: Rethinking Training Signals in RLVR (University of Washington, Allen Institute for Artificial Intelligence, University of California, Berkeley) - Can random reward improve model performance?",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 991217487,
+                "language": "Python",
+                "last_commit": "2025-07-29T20:41:29Z",
+                "owner": "ruixin31",
+                "repo": "Spurious_Rewards",
+                "stars": 362
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Can Large Reasoning Models Self-Train (Ubiquant) - The paper's main contribution is demonstrating that entropy minimization with a single unlabeled data point and 10 optimization steps can achieve performance improvements comparable to or better than traditional methods using thousands of data points and carefully designed rewards in rule-based reinforcement learning for AI agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 991022370,
+                "language": "Python",
+                "last_commit": "2025-06-13T06:28:46Z",
+                "owner": "UbiquantAI",
+                "repo": "one-shot-em",
+                "stars": 191
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(COLM'25) [2504]",
+              "description": "Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization (Tianjin University, Tencent AI Lab, NUS) - The paper introduces Entropy Minimized Policy Optimization, a fully unsupervised method that enhances large language model reasoning by minimizing predictive entropy on unlabeled questions, achieving competitive performance without supervised signals.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 972068511,
+                "language": "Python",
+                "last_commit": "2025-11-24T03:30:39Z",
+                "owner": "QingyangZhang",
+                "repo": "EMPO",
+                "stars": 104
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "Enhancing Reasoning Ability through RL without Labels (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China) - Completely unsupervised methods for reasoning enhancement",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 990769282,
+                "language": "Python",
+                "last_commit": "2025-06-24T03:46:10Z",
+                "owner": "sail-sg",
+                "repo": "VeriFree",
+                "stars": 102
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "VeriFree: Reinforcing General Reasoning without Verifiers (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 990769282,
+                "language": "Python",
+                "last_commit": "2025-06-24T03:46:10Z",
+                "owner": "sail-sg",
+                "repo": "VeriFree",
+                "stars": 102
+              }
+            }
+          ],
+          "description": "Extracting learning signals from model internals, confidence scores, and consistant behaviors without external validation or verification mechanisms.",
+          "node_type": "group",
+          "title": "Internal Signal Mining"
+        }
+      ],
       "title": "Unsupervised Reward Construction"
     },
     {
-      "description": "Extracting learning signals from model internals, confidence scores, and consistant behaviors without external validation or verification mechanisms.",
+      "description": "Scaling preference data for reward models training to enable policy learning on general tasks.",
       "items": [
         {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "TTRL: Test-Time Reinforcement Learning (Tsinghua University, Shanghai AI Lab) - The paper introduces Test-Time Reinforcement Learning (TTRL), a novel method that uses majority voting from Test-Time Scaling to construct effective rewards for training Large Language Models on unlabeled data, enabling significant performance improvements.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-15T02:47:09Z",
-            "owner": "PRIME-RL",
-            "repo": "TTRL",
-            "stars": 1113
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2507]",
+              "description": "POLAR：Pre-Trained Policy Discriminators are General Reward Models (Shanghai AI Laboratory, Fudan University) - The paper introduces POLAR, a novel criterion-agnostic pre-training paradigm for reward modeling that uses policy discrimination to enhance scalability and generalization, significantly outperforming traditional methods in reward signal accuracy and policy performance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1013160170,
+                "language": "Python",
+                "last_commit": "2025-09-23T07:40:40Z",
+                "owner": "InternLM",
+                "repo": "POLAR",
+                "stars": 168
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "WorldPM: Scaling Human Preference Modeling (Qwen Team, Alibaba Group, Fudan University) - Exploring scalability of preference modeling using 15M human forum data, showing clear scaling laws in objective tasks like mathematics",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 984581792,
+                "language": null,
+                "last_commit": "2025-05-16T14:02:30Z",
+                "owner": "QwenLM",
+                "repo": "WorldPM",
+                "stars": 93
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Reward Model Pretrain"
         },
         {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (Shanghai AI Laboratory, Tsinghua University, UIUC, Peking University, Nanjing University, CUHK) - Understanding how entropy affects reinforcement learning in reasoning models, it indicated that the improvement of self-train may cause by the entropy mechanism.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-11T06:47:36Z",
-            "owner": "PRIME-RL",
-            "repo": "Entropy-Mechanism-of-RL",
-            "stars": 450
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(ICML'24) [2402]",
+              "description": "RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback (Robotics Institute, Carnegie Mellon University, Department of Computer Science, University of Southern California) - RL-VLM-F introduces a method that automatically generates reward functions for AI agents by leveraging feedback from vision language foundation models, using task goal descriptions and visual observations to learn rewards from preference labels rather than raw scores.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 800709370,
+                "language": "C++",
+                "last_commit": "2024-05-22T20:18:56Z",
+                "owner": "yufeiwang63",
+                "repo": "RL-VLM-F",
+                "stars": 140
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2505]",
+              "description": "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators (Zhejiang University, Alibaba Group) - Reward evaluation for spoken dialogue systems",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 983397605,
+                "language": null,
+                "last_commit": "2025-05-15T04:05:31Z",
+                "owner": "jishengpeng",
+                "repo": "WavReward",
+                "stars": 56
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Multi-Modal Reward Models"
         },
         {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Maximizing Confidence Alone Improves Reasoning (Carnegie Mellon University) - The paper introduces RENT, a fully unsupervised reinforcement learning method that uses a model's entropy as an intrinsic reward to improve reasoning by reinforcing chains of thought with high model confidence, eliminating the need for external rewards or ground-truth answers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-26T20:13:48Z",
-            "owner": "sunblaze-ucb",
-            "repo": "Intuitor",
-            "stars": 421
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Learning to Reason without External Rewards (UC Berkeley, Yale University) - The paper introduces Intuitor, a method that uses a model's self-certainty as an intrinsic reward signal for unsupervised reinforcement learning, enabling effective reasoning and generalization without external rewards.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-26T20:13:48Z",
-            "owner": "sunblaze-ucb",
-            "repo": "Intuitor",
-            "stars": 421
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2506]",
-          "description": "Spurious Rewards: Rethinking Training Signals in RLVR (University of Washington, Allen Institute for Artificial Intelligence, University of California, Berkeley) - Can random reward improve model performance?",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-29T20:41:29Z",
-            "owner": "ruixin31",
-            "repo": "Spurious_Rewards",
-            "stars": 362
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Can Large Reasoning Models Self-Train (Ubiquant) - The paper's main contribution is demonstrating that entropy minimization with a single unlabeled data point and 10 optimization steps can achieve performance improvements comparable to or better than traditional methods using thousands of data points and carefully designed rewards in rule-based reinforcement learning for AI agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-13T06:28:46Z",
-            "owner": "UbiquantAI",
-            "repo": "one-shot-em",
-            "stars": 191
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(COLM'25) [2504]",
-          "description": "Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization (Tianjin University, Tencent AI Lab, NUS) - The paper introduces Entropy Minimized Policy Optimization, a fully unsupervised method that enhances large language model reasoning by minimizing predictive entropy on unlabeled questions, achieving competitive performance without supervised signals.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-24T03:30:39Z",
-            "owner": "QingyangZhang",
-            "repo": "EMPO",
-            "stars": 104
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "Enhancing Reasoning Ability through RL without Labels (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China) - Completely unsupervised methods for reasoning enhancement",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-24T03:46:10Z",
-            "owner": "sail-sg",
-            "repo": "VeriFree",
-            "stars": 102
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "VeriFree: Reinforcing General Reasoning without Verifiers (Sea AI Lab, Singapore, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, National University of Singapore, University of Oxford, Renmin University of China)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-06-24T03:46:10Z",
-            "owner": "sail-sg",
-            "repo": "VeriFree",
-            "stars": 102
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(ICLR'24) [2305]",
+              "description": "Let’s Verify Step by Step (OpenAI) - The paper demonstrates that process supervision, which provides feedback for each intermediate reasoning step, significantly outperforms outcome supervision in training reliable reward models for AI agents solving mathematical problems, achieving a 78% solve rate on a subset of the MATH test set.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 627639944,
+                "language": "Python",
+                "last_commit": "2023-06-01T17:41:14Z",
+                "owner": "openai",
+                "repo": "prm800k",
+                "stars": 2151
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ACL'24) [2312]",
+              "description": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations (National Key Laboratory for Multimedia Information Processing, Peking University, DeepSeek-AI, The University of Hong Kong, Tsinghua University, The Ohio State University) - The paper introduces Math-Shepherd, a process-oriented reward model that assigns scores to each step of math problem solutions using automatically constructed supervision data, enhancing the performance of LLMs in verification and reinforcement learning without relying on human annotations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 870976364,
+                "language": "Python",
+                "last_commit": "2025-01-17T19:08:11Z",
+                "owner": "openreasoner",
+                "repo": "openr",
+                "stars": 1853
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Process Supervision"
         }
       ],
-      "title": "Internal Signal Mining"
-    },
-    {
-      "description": "Scaling preference data for reward models training to enable policy learning on general tasks.",
-      "items": [],
       "title": "Reward Model Construction"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2507]",
-          "description": "POLAR：Pre-Trained Policy Discriminators are General Reward Models (Shanghai AI Laboratory, Fudan University) - The paper introduces POLAR, a novel criterion-agnostic pre-training paradigm for reward modeling that uses policy discrimination to enhance scalability and generalization, significantly outperforming traditional methods in reward signal accuracy and policy performance.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-09-23T07:40:40Z",
-            "owner": "InternLM",
-            "repo": "POLAR",
-            "stars": 168
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "WorldPM: Scaling Human Preference Modeling (Qwen Team, Alibaba Group, Fudan University) - Exploring scalability of preference modeling using 15M human forum data, showing clear scaling laws in objective tasks like mathematics",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2025-05-16T14:02:30Z",
-            "owner": "QwenLM",
-            "repo": "WorldPM",
-            "stars": 93
-          }
-        }
-      ],
-      "title": "Reward Model Pretrain"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(ICML'24) [2402]",
-          "description": "RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback (Robotics Institute, Carnegie Mellon University, Department of Computer Science, University of Southern California) - RL-VLM-F introduces a method that automatically generates reward functions for AI agents by leveraging feedback from vision language foundation models, using task goal descriptions and visual observations to learn rewards from preference labels rather than raw scores.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2024-05-22T20:18:56Z",
-            "owner": "yufeiwang63",
-            "repo": "RL-VLM-F",
-            "stars": 140
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2505]",
-          "description": "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators (Zhejiang University, Alibaba Group) - Reward evaluation for spoken dialogue systems",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2025-05-15T04:05:31Z",
-            "owner": "jishengpeng",
-            "repo": "WavReward",
-            "stars": 56
-          }
-        }
-      ],
-      "title": "Multi-Modal Reward Models"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(ICLR'24) [2305]",
-          "description": "Let’s Verify Step by Step (OpenAI) - The paper demonstrates that process supervision, which provides feedback for each intermediate reasoning step, significantly outperforms outcome supervision in training reliable reward models for AI agents solving mathematical problems, achieving a 78% solve rate on a subset of the MATH test set.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2023-06-01T17:41:14Z",
-            "owner": "openai",
-            "repo": "prm800k",
-            "stars": 2151
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ACL'24) [2312]",
-          "description": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations (National Key Laboratory for Multimedia Information Processing, Peking University, DeepSeek-AI, The University of Hong Kong, Tsinghua University, The Ohio State University) - The paper introduces Math-Shepherd, a process-oriented reward model that assigns scores to each step of math problem solutions using automatically constructed supervision data, enhancing the performance of LLMs in verification and reinforcement learning without relying on human annotations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-01-17T19:08:11Z",
-            "owner": "openreasoner",
-            "repo": "openr",
-            "stars": 1853
-          }
-        }
-      ],
-      "title": "Process Supervision"
-    },
-    {
       "description": "Providing benchmarks or gyms to evaluate the model proformance. We divided Evaluation and Benchmarks into 4 types: Reward Model Benchmarks, Game Gym, Web Search, Computer Use and New Evaluation Dimension.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(NAACL'25) [2403]",
+              "description": "RewardBench (Allen Institute for Artificial Intelligence, University of Washington, Berkman Klein Center, Harvard Law) - Comprehensive benchmark for reward model evaluation",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 735090310,
+                "language": "Python",
+                "last_commit": "2026-02-16T05:50:29Z",
+                "owner": "allenai",
+                "repo": "reward-bench",
+                "stars": 732
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ACL'25) [2412]",
+              "description": "PROCESSBENCH (Alibaba Inc.) - The paper introduces PROCESSBENCH, a benchmark for evaluating the ability of process reward models (PRMs) and critic models to identify errors in mathematical reasoning, revealing that existing PRMs struggle to generalize to challenging problems and underperform compared to critic models and a newly fine-tuned PRM on the PRM800K dataset.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 900611273,
+                "language": "Python",
+                "last_commit": "2025-05-20T06:43:45Z",
+                "owner": "QwenLM",
+                "repo": "ProcessBench",
+                "stars": 192
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ACL'25) [2501]",
+              "description": "PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models (Fudan University, Shanghai AI Laboratory, Soochow University, Stony Brook University, The Chinese University of Hong Kong) - The paper introduces PRMBENCH, a comprehensive benchmark with 6,216 samples and 83,456 step-level labels, to evaluate the fine-grained error detection capabilities of Process-level Reward Models (PRMs) across dimensions like simplicity, soundness, and sensitivity, revealing significant weaknesses in current models and guiding future research.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 913191059,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-02-15T06:43:13Z",
+                "owner": "ssmisya",
+                "repo": "PRMBench",
+                "stars": 94
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(CVPR'25) [2411]",
+              "description": "VL-RewardBench (HKU, SCUT, SJTU, PKU, UW, Allen AI) - Vision-language reward model benchmarking",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 897908919,
+                "language": "Python",
+                "last_commit": "2025-07-23T07:53:49Z",
+                "owner": "vl-rewardbench",
+                "repo": "VL_RewardBench",
+                "stars": 30
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Reward Model Benchmarks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(ICLR'25) [2412]",
+              "description": "GameArena: Evaluating LLM Reasoning through Live Computer Games (University of California, San Diego, University of California, Berkeley) - The paper does not discuss reward construction for AI agents, so no summary can be provided for this specific aspect.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 939763313,
+                "language": "Python",
+                "last_commit": "2025-11-16T20:16:05Z",
+                "owner": "lmgame-org",
+                "repo": "GamingAgent",
+                "stars": 968
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICLR'25) [2411]",
+              "description": "Balrog: Benchmarking agentic llm and vlm reasoning on games (AI Centre, University College London, IDEAS NCBR, University of Warsaw, University of Oxford, New York University, Anthropic, Institute of Mathematics, Polish Academy of Sciences) - A benchmark for evaluating the agentic capabilities of LLMs and VLMs in game environments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 891746957,
+                "language": "Python",
+                "last_commit": "2026-04-09T10:40:53Z",
+                "owner": "balrog-ai",
+                "repo": "BALROG",
+                "stars": 266
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICML'25) [2505]",
+              "description": "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows (The University of Hong Kong, Shanghai AI Laboratory, Fudan University, Peking University, Nanjing University, East China Normal University, Yale University) - Evaluating multimodal autonomous agents in scientific workflows through the SCIENCE BOARD environment and benchmark.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 986176732,
+                "language": "Python",
+                "last_commit": "2026-02-02T06:26:48Z",
+                "owner": "OS-Copilot",
+                "repo": "ScienceBoard",
+                "stars": 136
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'24) [2403]",
+              "description": "How Far Are We on the Decision-Making of LLMs? Evaluating LLMs’ Gaming Ability in Multi-Agent Environments (The Chinese University of Hong Kong, Tencent AI Lab, The Chinese University of Hong Kong, Shenzhen, Tsinghua University) - The paper introduces GAMA($\\gamma$)-Bench, a new framework with a dynamic scoring scheme to evaluate LLMs' gaming ability in multi-agent environments, enhancing the assessment of robustness and generalizability.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 704941243,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-01-26T07:46:40Z",
+                "owner": "CUHK-ARISE",
+                "repo": "GAMABench",
+                "stars": 98
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(NeurIPS'24) [2402]",
+              "description": "GTBench: Uncovering the strategic reasoning limitations of llms via game-theoretic evaluations (Drexel University, Boston University, LLNL, Lehigh University, UNC Chapel Hill, MIT, Harvard University) - The paper introduces GTBench, a language-driven environment with 10 game-theoretic tasks, to evaluate and characterize the strategic reasoning limitations of LLMs in competitive scenarios, highlighting their performance across different game types and the impact of code-pretraining on strategic reasoning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 753958749,
+                "language": "Python",
+                "last_commit": "2024-09-06T22:43:00Z",
+                "owner": "jinhaoduan",
+                "repo": "GTBench",
+                "stars": 72
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(NeurIPS'24) [2406]",
+              "description": "GameBench: Evaluating strategic reasoning abilities of llm agents (Olin College of Engineering, University of Texas at Dallas, University of Oxford, University College London, ShanghaiTech University, Columbia University, University of Manchester) - The paper introduces GameBench, a cross-domain benchmark to evaluate the strategic reasoning abilities of LLM agents across 9 game environments, focusing on reasoning skills not heavily represented in pretraining data, and tests enhancements like Chain-of-Thought and Reasoning Via Planning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 731289023,
+                "language": "Python",
+                "last_commit": "2024-06-27T14:01:35Z",
+                "owner": "Joshuaclymer",
+                "repo": "GameBench",
+                "stars": 21
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Game Gym"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI) - The paper introduces BrowseComp, a benchmark designed to evaluate the persistence and creativity of browsing agents in navigating the web to find hard-to-find information, analogous to programming competitions for coding agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 785446833,
+                "language": "Python",
+                "last_commit": "2026-04-22T22:16:18Z",
+                "owner": "openai",
+                "repo": "simple-evals",
+                "stars": 4605
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "BrowseComp-ZH: Benchmarking Web Browsing Ability of Large Language Models in Chinese (Hong Kong University of Science and Technology (Guangzhou), Peking University, Mindverse AI, Alibaba Group, Zhejiang University, Zhejiang University of Technology, MBZUAI, NIO, HSBC, Harvard T.H. Chan School of Public Health) - The paper introduces BrowseComp-ZH, a benchmark to evaluate the web browsing ability of large language models in Chinese, highlighting the challenges in retrieval and reasoning for these models in a linguistically and infrastructurally complex environment.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 972103285,
+                "language": "Python",
+                "last_commit": "2025-05-14T07:18:36Z",
+                "owner": "PALIN2018",
+                "repo": "BrowseComp-ZH",
+                "stars": 161
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Web Search Evaluation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2504]",
+              "description": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI) - The paper introduces BrowseComp, a benchmark designed to evaluate the persistence and creativity of browsing agents in navigating the web to find hard-to-find information, without focusing on reward construction.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 785446833,
+                "language": "Python",
+                "last_commit": "2026-04-22T22:16:18Z",
+                "owner": "openai",
+                "repo": "simple-evals",
+                "stars": 4605
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(NeurIPS'24) [2404]",
+              "description": "OSWORLD: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (The University of Hong Kong, CMU, Salesforce Research, University of Waterloo) - The paper introduces an execution-based reward function in the OSWORLD environment that awards a value of 1 or a positive decimal under 1 at the final step if the state transitions meet the task objective, or 0 otherwise, to evaluate AI agents' performance on real computer tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 705433049,
+                "language": "Python",
+                "last_commit": "2026-08-12T16:12:29Z",
+                "owner": "xlang-ai",
+                "repo": "OSWorld",
+                "stars": 3098
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'24) [2406]",
+              "description": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains (Mila – Quebec AI Research Institute, Polytechnique Montréal) - The paper introduces a reward system for AI agents in τ-bench that evaluates success based on whether the final database state matches the unique ground truth outcome and whether the agent's responses contain all necessary information, ensuring faithful and fast evaluation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 811477986,
+                "language": "Python",
+                "last_commit": "2026-03-18T17:36:06Z",
+                "owner": "sierra-research",
+                "repo": "tau-bench",
+                "stars": 1390
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(Arxiv'24) [2412]",
+              "description": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks (Carnegie Mellon University, Duke University) - A benchmark for evaluating LLM agents on real-world professional tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 770272502,
+                "language": "Python",
+                "last_commit": "2025-11-17T20:31:16Z",
+                "owner": "TheAgentCompany",
+                "repo": "TheAgentCompany",
+                "stars": 766
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "(ICML'24) [2403]",
+              "description": "WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? (ServiceNow Research, Mila – Quebec AI Research Institute, Polytechnique Montréal, McGill University, Université de Montréal) - The paper introduces WorkArena and BrowserGym to evaluate and design large language model-based agents for web-based knowledge work tasks, highlighting their current limitations and performance disparities between open and closed-source models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 764848724,
+                "language": "Python",
+                "last_commit": "2026-04-25T18:29:28Z",
+                "owner": "ServiceNow",
+                "repo": "WorkArena",
+                "stars": 267
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Computer Use Evaluation"
+        }
+      ],
       "title": "Evaluation and Benchmarks"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(NAACL'25) [2403]",
-          "description": "RewardBench (Allen Institute for Artificial Intelligence, University of Washington, Berkman Klein Center, Harvard Law) - Comprehensive benchmark for reward model evaluation",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-16T05:50:29Z",
-            "owner": "allenai",
-            "repo": "reward-bench",
-            "stars": 732
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ACL'25) [2412]",
-          "description": "PROCESSBENCH (Alibaba Inc.) - The paper introduces PROCESSBENCH, a benchmark for evaluating the ability of process reward models (PRMs) and critic models to identify errors in mathematical reasoning, revealing that existing PRMs struggle to generalize to challenging problems and underperform compared to critic models and a newly fine-tuned PRM on the PRM800K dataset.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-05-20T06:43:45Z",
-            "owner": "QwenLM",
-            "repo": "ProcessBench",
-            "stars": 192
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ACL'25) [2501]",
-          "description": "PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models (Fudan University, Shanghai AI Laboratory, Soochow University, Stony Brook University, The Chinese University of Hong Kong) - The paper introduces PRMBENCH, a comprehensive benchmark with 6,216 samples and 83,456 step-level labels, to evaluate the fine-grained error detection capabilities of Process-level Reward Models (PRMs) across dimensions like simplicity, soundness, and sensitivity, revealing significant weaknesses in current models and guiding future research.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-02-15T06:43:13Z",
-            "owner": "ssmisya",
-            "repo": "PRMBench",
-            "stars": 94
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(CVPR'25) [2411]",
-          "description": "VL-RewardBench (HKU, SCUT, SJTU, PKU, UW, Allen AI) - Vision-language reward model benchmarking",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-23T07:53:49Z",
-            "owner": "vl-rewardbench",
-            "repo": "VL_RewardBench",
-            "stars": 30
-          }
-        }
-      ],
-      "title": "Reward Model Benchmarks"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(ICLR'25) [2412]",
-          "description": "GameArena: Evaluating LLM Reasoning through Live Computer Games (University of California, San Diego, University of California, Berkeley) - The paper does not discuss reward construction for AI agents, so no summary can be provided for this specific aspect.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-16T20:16:05Z",
-            "owner": "lmgame-org",
-            "repo": "GamingAgent",
-            "stars": 968
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICLR'25) [2411]",
-          "description": "Balrog: Benchmarking agentic llm and vlm reasoning on games (AI Centre, University College London, IDEAS NCBR, University of Warsaw, University of Oxford, New York University, Anthropic, Institute of Mathematics, Polish Academy of Sciences) - A benchmark for evaluating the agentic capabilities of LLMs and VLMs in game environments.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-09T10:40:53Z",
-            "owner": "balrog-ai",
-            "repo": "BALROG",
-            "stars": 265
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICML'25) [2505]",
-          "description": "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows (The University of Hong Kong, Shanghai AI Laboratory, Fudan University, Peking University, Nanjing University, East China Normal University, Yale University) - Evaluating multimodal autonomous agents in scientific workflows through the SCIENCE BOARD environment and benchmark.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-02T06:26:48Z",
-            "owner": "OS-Copilot",
-            "repo": "ScienceBoard",
-            "stars": 136
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'24) [2403]",
-          "description": "How Far Are We on the Decision-Making of LLMs? Evaluating LLMs’ Gaming Ability in Multi-Agent Environments (The Chinese University of Hong Kong, Tencent AI Lab, The Chinese University of Hong Kong, Shenzhen, Tsinghua University) - The paper introduces GAMA($\\gamma$)-Bench, a new framework with a dynamic scoring scheme to evaluate LLMs' gaming ability in multi-agent environments, enhancing the assessment of robustness and generalizability.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2026-01-26T07:46:40Z",
-            "owner": "CUHK-ARISE",
-            "repo": "GAMABench",
-            "stars": 98
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(NeurIPS'24) [2402]",
-          "description": "GTBench: Uncovering the strategic reasoning limitations of llms via game-theoretic evaluations (Drexel University, Boston University, LLNL, Lehigh University, UNC Chapel Hill, MIT, Harvard University) - The paper introduces GTBench, a language-driven environment with 10 game-theoretic tasks, to evaluate and characterize the strategic reasoning limitations of LLMs in competitive scenarios, highlighting their performance across different game types and the impact of code-pretraining on strategic reasoning.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-09-06T22:43:00Z",
-            "owner": "jinhaoduan",
-            "repo": "GTBench",
-            "stars": 72
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(NeurIPS'24) [2406]",
-          "description": "GameBench: Evaluating strategic reasoning abilities of llm agents (Olin College of Engineering, University of Texas at Dallas, University of Oxford, University College London, ShanghaiTech University, Columbia University, University of Manchester) - The paper introduces GameBench, a cross-domain benchmark to evaluate the strategic reasoning abilities of LLM agents across 9 game environments, focusing on reasoning skills not heavily represented in pretraining data, and tests enhancements like Chain-of-Thought and Reasoning Via Planning.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-06-27T14:01:35Z",
-            "owner": "Joshuaclymer",
-            "repo": "GameBench",
-            "stars": 21
-          }
-        }
-      ],
-      "title": "Game Gym"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI) - The paper introduces BrowseComp, a benchmark designed to evaluate the persistence and creativity of browsing agents in navigating the web to find hard-to-find information, analogous to programming competitions for coding agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-22T22:16:18Z",
-            "owner": "openai",
-            "repo": "simple-evals",
-            "stars": 4604
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "BrowseComp-ZH: Benchmarking Web Browsing Ability of Large Language Models in Chinese (Hong Kong University of Science and Technology (Guangzhou), Peking University, Mindverse AI, Alibaba Group, Zhejiang University, Zhejiang University of Technology, MBZUAI, NIO, HSBC, Harvard T.H. Chan School of Public Health) - The paper introduces BrowseComp-ZH, a benchmark to evaluate the web browsing ability of large language models in Chinese, highlighting the challenges in retrieval and reasoning for these models in a linguistically and infrastructurally complex environment.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-05-14T07:18:36Z",
-            "owner": "PALIN2018",
-            "repo": "BrowseComp-ZH",
-            "stars": 161
-          }
-        }
-      ],
-      "title": "Web Search Evaluation"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "(Arxiv'25) [2504]",
-          "description": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI) - The paper introduces BrowseComp, a benchmark designed to evaluate the persistence and creativity of browsing agents in navigating the web to find hard-to-find information, without focusing on reward construction.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-22T22:16:18Z",
-            "owner": "openai",
-            "repo": "simple-evals",
-            "stars": 4604
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(NeurIPS'24) [2404]",
-          "description": "OSWORLD: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (The University of Hong Kong, CMU, Salesforce Research, University of Waterloo) - The paper introduces an execution-based reward function in the OSWORLD environment that awards a value of 1 or a positive decimal under 1 at the final step if the state transitions meet the task objective, or 0 otherwise, to evaluate AI agents' performance on real computer tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-12T16:12:29Z",
-            "owner": "xlang-ai",
-            "repo": "OSWorld",
-            "stars": 3098
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'24) [2406]",
-          "description": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains (Mila – Quebec AI Research Institute, Polytechnique Montréal) - The paper introduces a reward system for AI agents in τ-bench that evaluates success based on whether the final database state matches the unique ground truth outcome and whether the agent's responses contain all necessary information, ensuring faithful and fast evaluation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-18T17:36:06Z",
-            "owner": "sierra-research",
-            "repo": "tau-bench",
-            "stars": 1389
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(Arxiv'24) [2412]",
-          "description": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks (Carnegie Mellon University, Duke University) - A benchmark for evaluating LLM agents on real-world professional tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-11-17T20:31:16Z",
-            "owner": "TheAgentCompany",
-            "repo": "TheAgentCompany",
-            "stars": 766
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "(ICML'24) [2403]",
-          "description": "WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? (ServiceNow Research, Mila – Quebec AI Research Institute, Polytechnique Montréal, McGill University, Université de Montréal) - The paper introduces WorkArena and BrowserGym to evaluate and design large language model-based agents for web-based knowledge work tasks, highlighting their current limitations and performance disparities between open and closed-source models.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-25T18:29:28Z",
-            "owner": "ServiceNow",
-            "repo": "WorkArena",
-            "stars": 267
-          }
-        }
-      ],
-      "title": "Computer Use Evaluation"
-    },
-    {
-      "description": "If you find this repository useful, please consider citing:\nNote: This is a living document that will be continuously updated as the field of agent reward construction evolves. Stay tuned for the latest developments!",
-      "items": [],
-      "title": "Citation"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T03:28:55.461Z",
+    "last_updated": "2026-08-19T12:06:23.358Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
+    "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",
     "enhanced_repository": "enhansome/enhansome-Awesome-Agent-RL",
     "enhanced_repository_description": null,

@@ -14,7 +14,7 @@
                 "archived": false,
                 "id": 984547583,
                 "language": "Python",
-                "last_commit": "2026-08-08T07:51:00Z",
+                "last_commit": "2026-08-21T05:58:32Z",
                 "owner": "tongjingqi",
                 "repo": "Game-RL",
                 "stars": 159
@@ -173,7 +173,7 @@
                 "last_commit": "2024-11-28T08:45:30Z",
                 "owner": "StoneT2000",
                 "repo": "rfcl",
-                "stars": 62
+                "stars": 63
               }
             },
             {
@@ -216,7 +216,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19856
+                "stars": 19858
               }
             },
             {
@@ -231,7 +231,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19856
+                "stars": 19858
               }
             },
             {
@@ -246,7 +246,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19856
+                "stars": 19858
               }
             },
             {
@@ -261,7 +261,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19856
+                "stars": 19858
               }
             },
             {
@@ -276,7 +276,7 @@
                 "last_commit": "2025-11-13T21:56:33Z",
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5314
+                "stars": 5319
               }
             },
             {
@@ -358,7 +358,7 @@
                 "last_commit": "2026-01-11T08:24:15Z",
                 "owner": "OpenBMB",
                 "repo": "AgentCPM-GUI",
-                "stars": 1405
+                "stars": 1406
               }
             },
             {
@@ -492,7 +492,7 @@
                 "last_commit": "2026-03-30T06:32:00Z",
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2307
+                "stars": 2308
               }
             },
             {
@@ -535,7 +535,7 @@
                 "last_commit": "2026-04-15T02:47:09Z",
                 "owner": "PRIME-RL",
                 "repo": "TTRL",
-                "stars": 1114
+                "stars": 1115
               }
             },
             {
@@ -735,7 +735,7 @@
                 "last_commit": "2025-05-15T04:05:31Z",
                 "owner": "jishengpeng",
                 "repo": "WavReward",
-                "stars": 56
+                "stars": 57
               }
             }
           ],
@@ -1013,10 +1013,10 @@
                 "archived": false,
                 "id": 705433049,
                 "language": "Python",
-                "last_commit": "2026-08-12T16:12:29Z",
+                "last_commit": "2026-08-21T09:11:07Z",
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3100
+                "stars": 3101
               }
             },
             {
@@ -1031,7 +1031,7 @@
                 "last_commit": "2026-03-18T17:36:06Z",
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1395
+                "stars": 1397
               }
             },
             {
@@ -1074,7 +1074,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T03:35:02.412Z",
+    "last_updated": "2026-08-22T03:25:07.107Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",

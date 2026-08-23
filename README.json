@@ -216,7 +216,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19858
+                "stars": 19864
               }
             },
             {
@@ -231,7 +231,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19858
+                "stars": 19864
               }
             },
             {
@@ -246,7 +246,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19858
+                "stars": 19864
               }
             },
             {
@@ -261,7 +261,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19858
+                "stars": 19864
               }
             },
             {
@@ -276,7 +276,7 @@
                 "last_commit": "2025-11-13T21:56:33Z",
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5319
+                "stars": 5320
               }
             },
             {
@@ -358,7 +358,7 @@
                 "last_commit": "2026-01-11T08:24:15Z",
                 "owner": "OpenBMB",
                 "repo": "AgentCPM-GUI",
-                "stars": 1406
+                "stars": 1407
               }
             },
             {
@@ -492,7 +492,7 @@
                 "last_commit": "2026-03-30T06:32:00Z",
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2308
+                "stars": 2311
               }
             },
             {
@@ -927,7 +927,7 @@
                 "last_commit": "2024-09-06T22:43:00Z",
                 "owner": "jinhaoduan",
                 "repo": "GTBench",
-                "stars": 72
+                "stars": 73
               }
             },
             {
@@ -1031,7 +1031,7 @@
                 "last_commit": "2026-03-18T17:36:06Z",
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1397
+                "stars": 1399
               }
             },
             {
@@ -1074,7 +1074,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T03:25:07.107Z",
+    "last_updated": "2026-08-23T03:35:13.133Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",

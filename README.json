@@ -216,7 +216,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19864
+                "stars": 19871
               }
             },
             {
@@ -231,7 +231,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19864
+                "stars": 19871
               }
             },
             {
@@ -246,7 +246,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19864
+                "stars": 19871
               }
             },
             {
@@ -261,7 +261,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19864
+                "stars": 19871
               }
             },
             {
@@ -276,7 +276,7 @@
                 "last_commit": "2025-11-13T21:56:33Z",
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5320
+                "stars": 5323
               }
             },
             {
@@ -373,7 +373,7 @@
                 "last_commit": "2025-05-05T14:44:21Z",
                 "owner": "ritzz-ai",
                 "repo": "GUI-R1",
-                "stars": 255
+                "stars": 256
               }
             },
             {
@@ -897,7 +897,7 @@
                 "last_commit": "2026-02-02T06:26:48Z",
                 "owner": "OS-Copilot",
                 "repo": "ScienceBoard",
-                "stars": 136
+                "stars": 137
               }
             },
             {
@@ -964,7 +964,7 @@
                 "last_commit": "2026-04-22T22:16:18Z",
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4607
+                "stars": 4610
               }
             },
             {
@@ -1001,7 +1001,7 @@
                 "last_commit": "2026-04-22T22:16:18Z",
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4607
+                "stars": 4610
               }
             },
             {
@@ -1016,7 +1016,7 @@
                 "last_commit": "2026-08-21T09:11:07Z",
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3101
+                "stars": 3102
               }
             },
             {
@@ -1046,7 +1046,7 @@
                 "last_commit": "2025-11-17T20:31:16Z",
                 "owner": "TheAgentCompany",
                 "repo": "TheAgentCompany",
-                "stars": 768
+                "stars": 769
               }
             },
             {
@@ -1074,7 +1074,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T03:35:13.133Z",
+    "last_updated": "2026-08-24T03:38:13.235Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",

@@ -69,7 +69,7 @@
                 "last_commit": "2025-07-07T06:03:03Z",
                 "owner": "MiniMax-AI",
                 "repo": "SynLogic",
-                "stars": 207
+                "stars": 208
               }
             },
             {
@@ -91,6 +91,28 @@
           "description": null,
           "node_type": "group",
           "title": "Text-Based Puzzle Solving"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "(Arxiv'25) [2506]",
+              "description": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning (National University of Singapore, Centre for Frontier AI Research (CFAR), A*STAR, Northeastern University, Sea AI Lab, Plastic Labs, University of Washington) - Using chess games' natural verifiable environments for self-play with win/loss rewards to enhance general reasoning",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 995908297,
+                "language": "Python",
+                "last_commit": "2026-03-27T21:07:48Z",
+                "owner": "spiral-rl",
+                "repo": "spiral",
+                "stars": 204
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Zero-Sum Games"
         },
         {
           "children": [
@@ -173,7 +195,7 @@
                 "last_commit": "2024-11-28T08:45:30Z",
                 "owner": "StoneT2000",
                 "repo": "rfcl",
-                "stars": 63
+                "stars": 64
               }
             },
             {
@@ -216,7 +238,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19871
+                "stars": 19870
               }
             },
             {
@@ -231,7 +253,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19871
+                "stars": 19870
               }
             },
             {
@@ -246,7 +268,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19871
+                "stars": 19870
               }
             },
             {
@@ -261,7 +283,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19871
+                "stars": 19870
               }
             },
             {
@@ -276,7 +298,7 @@
                 "last_commit": "2025-11-13T21:56:33Z",
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5323
+                "stars": 5325
               }
             },
             {
@@ -1031,7 +1053,7 @@
                 "last_commit": "2026-03-18T17:36:06Z",
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1399
+                "stars": 1402
               }
             },
             {
@@ -1074,7 +1096,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T03:38:13.235Z",
+    "last_updated": "2026-08-24T14:46:02.032Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",

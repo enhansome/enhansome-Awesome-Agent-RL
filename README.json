@@ -238,7 +238,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19872
+                "stars": 19876
               }
             },
             {
@@ -253,7 +253,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19872
+                "stars": 19876
               }
             },
             {
@@ -268,7 +268,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19872
+                "stars": 19876
               }
             },
             {
@@ -283,7 +283,7 @@
                 "last_commit": "2026-02-27T13:12:11Z",
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19872
+                "stars": 19876
               }
             },
             {
@@ -514,7 +514,7 @@
                 "last_commit": "2026-03-30T06:32:00Z",
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2311
+                "stars": 2313
               }
             },
             {
@@ -557,7 +557,7 @@
                 "last_commit": "2026-04-15T02:47:09Z",
                 "owner": "PRIME-RL",
                 "repo": "TTRL",
-                "stars": 1115
+                "stars": 1119
               }
             },
             {
@@ -889,7 +889,7 @@
                 "last_commit": "2025-11-16T20:16:05Z",
                 "owner": "lmgame-org",
                 "repo": "GamingAgent",
-                "stars": 968
+                "stars": 970
               }
             },
             {
@@ -1096,7 +1096,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:37:31.383Z",
+    "last_updated": "2026-08-26T03:38:37.861Z",
     "original_repository": "tongjingqi/Awesome-Agent-RL",
     "original_repository_id": 1043263400,
     "original_repository_sha": "6f3f12d19bcddf414169d7f45fa6e180bcb57ad5",

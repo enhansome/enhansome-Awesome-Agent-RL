@@ -152,7 +152,7 @@
                 "open_issues": 1,
                 "owner": "spiral-rl",
                 "repo": "spiral",
-                "stars": 204,
+                "stars": 205,
                 "topics": [
                   "large-language-models",
                   "multi-agent-reinforcement-learning",
@@ -339,7 +339,7 @@
                 "open_issues": 92,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19909,
+                "stars": 19911,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -370,7 +370,7 @@
                 "open_issues": 92,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19909,
+                "stars": 19911,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -401,7 +401,7 @@
                 "open_issues": 92,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19909,
+                "stars": 19911,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -432,7 +432,7 @@
                 "open_issues": 92,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19909,
+                "stars": 19911,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -463,7 +463,7 @@
                 "open_issues": 36,
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5364,
+                "stars": 5368,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -610,7 +610,7 @@
                 "open_issues": 9,
                 "owner": "ritzz-ai",
                 "repo": "GUI-R1",
-                "stars": 258,
+                "stars": 259,
                 "topics": [
                   "deep-reinforcement-learning",
                   "grpo",
@@ -786,7 +786,7 @@
                 "open_issues": 36,
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2324,
+                "stars": 2325,
                 "topics": [
                   "genie",
                   "interactive-video",
@@ -1213,7 +1213,7 @@
                 "open_issues": 14,
                 "owner": "allenai",
                 "repo": "reward-bench",
-                "stars": 735,
+                "stars": 736,
                 "topics": [
                   "preference-learning",
                   "rlhf"
@@ -1522,7 +1522,7 @@
                 "open_issues": 202,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3121,
+                "stars": 3124,
                 "topics": [
                   "agent",
                   "artificial-intelligence",
@@ -1558,7 +1558,7 @@
                 "open_issues": 53,
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1420,
+                "stars": 1422,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1622,7 +1622,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-04T07:25:07.793Z",
+    "last_updated": "2026-09-05T07:06:40.039Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",

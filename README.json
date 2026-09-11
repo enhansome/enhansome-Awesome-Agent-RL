@@ -49,7 +49,7 @@
                 "open_issues": 3,
                 "owner": "yunfeixie233",
                 "repo": "ViGaL",
-                "stars": 71,
+                "stars": 72,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -124,7 +124,7 @@
                 "open_issues": 2,
                 "owner": "BytedTsinghua-SIA",
                 "repo": "Enigmata",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -336,10 +336,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 92,
+                "open_issues": 93,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19925,
+                "stars": 19930,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -367,10 +367,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 92,
+                "open_issues": 93,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19925,
+                "stars": 19930,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -398,10 +398,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 92,
+                "open_issues": 93,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19925,
+                "stars": 19930,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -429,10 +429,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 92,
+                "open_issues": 93,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 19925,
+                "stars": 19930,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -463,7 +463,7 @@
                 "open_issues": 36,
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5399,
+                "stars": 5403,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -589,7 +589,7 @@
                 "open_issues": 2,
                 "owner": "OpenBMB",
                 "repo": "AgentCPM-GUI",
-                "stars": 1414,
+                "stars": 1415,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -783,10 +783,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-03-30T06:32:00Z",
-                "open_issues": 34,
+                "open_issues": 35,
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2328,
+                "stars": 2329,
                 "topics": [
                   "genie",
                   "interactive-video",
@@ -1179,7 +1179,7 @@
                 "open_issues": 44,
                 "owner": "openreasoner",
                 "repo": "openr",
-                "stars": 1855,
+                "stars": 1856,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1519,10 +1519,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-08-30T09:41:51Z",
-                "open_issues": 203,
+                "open_issues": 204,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3135,
+                "stars": 3137,
                 "topics": [
                   "agent",
                   "artificial-intelligence",
@@ -1622,7 +1622,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T07:30:30.203Z",
+    "last_updated": "2026-09-11T07:28:48.547Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",

@@ -336,10 +336,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 96,
+                "open_issues": 97,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20026,
+                "stars": 20030,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -367,10 +367,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 96,
+                "open_issues": 97,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20026,
+                "stars": 20030,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -398,10 +398,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 96,
+                "open_issues": 97,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20026,
+                "stars": 20030,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -429,10 +429,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-02-27T13:12:11Z",
-                "open_issues": 96,
+                "open_issues": 97,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20026,
+                "stars": 20030,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -460,10 +460,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2025-11-13T21:56:33Z",
-                "open_issues": 37,
+                "open_issues": 38,
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5490,
+                "stars": 5492,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -481,7 +481,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-12-08T03:40:49Z",
-                "open_issues": 11,
+                "open_issues": 12,
                 "owner": "RUC-NLPIR",
                 "repo": "WebThinker",
                 "stars": 1471,
@@ -641,7 +641,7 @@
                 "open_issues": 18,
                 "owner": "OS-Copilot",
                 "repo": "OS-Genesis",
-                "stars": 192,
+                "stars": 193,
                 "topics": [
                   "agents",
                   "data-synthesis",
@@ -850,7 +850,7 @@
                 "open_issues": 17,
                 "owner": "PRIME-RL",
                 "repo": "TTRL",
-                "stars": 1126,
+                "stars": 1127,
                 "topics": [
                   "llm",
                   "reasoning",
@@ -1213,7 +1213,7 @@
                 "open_issues": 3,
                 "owner": "allenai",
                 "repo": "reward-bench",
-                "stars": 742,
+                "stars": 743,
                 "topics": [
                   "preference-learning",
                   "rlhf"
@@ -1299,7 +1299,7 @@
               "repo_info": {
                 "archived": false,
                 "description": "[ICLR 2026] LLM/VLM gaming agents and model evaluation through games.",
-                "homepage": null,
+                "homepage": "http://lmgame.org/",
                 "id": 939763313,
                 "language": "Python",
                 "license": "MIT",
@@ -1307,8 +1307,13 @@
                 "open_issues": 9,
                 "owner": "lmgame-org",
                 "repo": "GamingAgent",
-                "stars": 988,
-                "topics": []
+                "stars": 990,
+                "topics": [
+                  "computer-use",
+                  "gaming",
+                  "harness",
+                  "llm-agents"
+                ]
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
             },
@@ -1328,7 +1333,7 @@
                 "open_issues": 0,
                 "owner": "balrog-ai",
                 "repo": "BALROG",
-                "stars": 273,
+                "stars": 274,
                 "topics": [
                   "agentic",
                   "benchmark",
@@ -1452,7 +1457,7 @@
                 "open_issues": 66,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4656,
+                "stars": 4657,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1501,7 +1506,7 @@
                 "open_issues": 66,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4656,
+                "stars": 4657,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1522,7 +1527,7 @@
                 "open_issues": 215,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3193,
+                "stars": 3196,
                 "topics": [
                   "agent",
                   "artificial-intelligence",
@@ -1558,7 +1563,7 @@
                 "open_issues": 55,
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1458,
+                "stars": 1461,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1579,7 +1584,7 @@
                 "open_issues": 28,
                 "owner": "TheAgentCompany",
                 "repo": "TheAgentCompany",
-                "stars": 792,
+                "stars": 793,
                 "topics": [
                   "agent",
                   "ai",
@@ -1607,7 +1612,7 @@
                 "open_issues": 26,
                 "owner": "ServiceNow",
                 "repo": "WorkArena",
-                "stars": 275,
+                "stars": 276,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1622,7 +1627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T09:01:03.390Z",
+    "last_updated": "2026-10-11T09:18:20.735Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",

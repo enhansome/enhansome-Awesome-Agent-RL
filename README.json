@@ -21,7 +21,7 @@
                 "open_issues": 0,
                 "owner": "tongjingqi",
                 "repo": "Game-RL",
-                "stars": 160,
+                "stars": 162,
                 "topics": [
                   "dataset",
                   "game",
@@ -339,7 +339,7 @@
                 "open_issues": 98,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20049,
+                "stars": 20052,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -370,7 +370,7 @@
                 "open_issues": 98,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20049,
+                "stars": 20052,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -401,7 +401,7 @@
                 "open_issues": 98,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20049,
+                "stars": 20052,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -432,7 +432,7 @@
                 "open_issues": 98,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20049,
+                "stars": 20052,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -786,7 +786,7 @@
                 "open_issues": 39,
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2543,
+                "stars": 2561,
                 "topics": [
                   "genie",
                   "interactive-video",
@@ -850,7 +850,7 @@
                 "open_issues": 17,
                 "owner": "PRIME-RL",
                 "repo": "TTRL",
-                "stars": 1131,
+                "stars": 1129,
                 "topics": [
                   "llm",
                   "reasoning",
@@ -1307,7 +1307,7 @@
                 "open_issues": 9,
                 "owner": "lmgame-org",
                 "repo": "GamingAgent",
-                "stars": 992,
+                "stars": 993,
                 "topics": [
                   "computer-use",
                   "gaming",
@@ -1524,10 +1524,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-14T16:08:47Z",
-                "open_issues": 216,
+                "open_issues": 218,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3215,
+                "stars": 3217,
                 "topics": [
                   "agent",
                   "artificial-intelligence",
@@ -1584,7 +1584,7 @@
                 "open_issues": 28,
                 "owner": "TheAgentCompany",
                 "repo": "TheAgentCompany",
-                "stars": 796,
+                "stars": 798,
                 "topics": [
                   "agent",
                   "ai",
@@ -1627,7 +1627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-17T07:11:40.518Z",
+    "last_updated": "2026-10-18T07:25:10.618Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",

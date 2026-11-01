@@ -460,10 +460,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2025-11-13T21:56:33Z",
-                "open_issues": 39,
+                "open_issues": 40,
                 "owner": "PeterGriffinJin",
                 "repo": "Search-R1",
-                "stars": 5553,
+                "stars": 5555,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -786,7 +786,7 @@
                 "open_issues": 44,
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2814,
+                "stars": 2816,
                 "topics": [
                   "genie",
                   "interactive-video",
@@ -900,7 +900,7 @@
                 "open_issues": 14,
                 "owner": "sunblaze-ucb",
                 "repo": "Intuitor",
-                "stars": 426,
+                "stars": 427,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -921,7 +921,7 @@
                 "open_issues": 14,
                 "owner": "sunblaze-ucb",
                 "repo": "Intuitor",
-                "stars": 426,
+                "stars": 427,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1454,10 +1454,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-04-22T22:16:18Z",
-                "open_issues": 71,
+                "open_issues": 72,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4688,
+                "stars": 4690,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1503,10 +1503,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-04-22T22:16:18Z",
-                "open_issues": 71,
+                "open_issues": 72,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4688,
+                "stars": 4690,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1527,7 +1527,7 @@
                 "open_issues": 188,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
-                "stars": 3245,
+                "stars": 3247,
                 "topics": [
                   "agent",
                   "artificial-intelligence",
@@ -1563,7 +1563,7 @@
                 "open_issues": 56,
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1484,
+                "stars": 1485,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1627,7 +1627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-31T08:52:46.441Z",
+    "last_updated": "2026-11-01T09:43:48.383Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",

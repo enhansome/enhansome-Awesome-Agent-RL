@@ -339,7 +339,7 @@
                 "open_issues": 103,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20127,
+                "stars": 20133,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -370,7 +370,7 @@
                 "open_issues": 103,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20127,
+                "stars": 20133,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -401,7 +401,7 @@
                 "open_issues": 103,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20127,
+                "stars": 20133,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -432,7 +432,7 @@
                 "open_issues": 103,
                 "owner": "Alibaba-NLP",
                 "repo": "DeepResearch",
-                "stars": 20127,
+                "stars": 20133,
                 "topics": [
                   "agent",
                   "alibaba",
@@ -786,7 +786,7 @@
                 "open_issues": 44,
                 "owner": "SkyworkAI",
                 "repo": "Matrix-Game",
-                "stars": 2899,
+                "stars": 2903,
                 "topics": [
                   "genie",
                   "interactive-video",
@@ -900,7 +900,7 @@
                 "open_issues": 14,
                 "owner": "sunblaze-ucb",
                 "repo": "Intuitor",
-                "stars": 428,
+                "stars": 427,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -921,7 +921,7 @@
                 "open_issues": 14,
                 "owner": "sunblaze-ucb",
                 "repo": "Intuitor",
-                "stars": 428,
+                "stars": 427,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -963,7 +963,7 @@
                 "open_issues": 2,
                 "owner": "UbiquantAI",
                 "repo": "one-shot-em",
-                "stars": 192,
+                "stars": 191,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1158,7 +1158,7 @@
                 "open_issues": 7,
                 "owner": "openai",
                 "repo": "prm800k",
-                "stars": 2155,
+                "stars": 2154,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1307,7 +1307,7 @@
                 "open_issues": 9,
                 "owner": "lmgame-org",
                 "repo": "GamingAgent",
-                "stars": 1005,
+                "stars": 1004,
                 "topics": [
                   "computer-use",
                   "gaming",
@@ -1457,7 +1457,7 @@
                 "open_issues": 78,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4697,
+                "stars": 4701,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1506,7 +1506,7 @@
                 "open_issues": 78,
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4697,
+                "stars": 4701,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1524,7 +1524,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-10T17:30:17Z",
-                "open_issues": 173,
+                "open_issues": 188,
                 "owner": "xlang-ai",
                 "repo": "OSWorld",
                 "stars": 3258,
@@ -1563,7 +1563,7 @@
                 "open_issues": 57,
                 "owner": "sierra-research",
                 "repo": "tau-bench",
-                "stars": 1497,
+                "stars": 1500,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:35:33.419Z"
@@ -1627,7 +1627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-11T09:50:50.000Z",
+    "last_updated": "2026-11-12T10:19:43.130Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome resources about reward construction for AI agents. This repository covers cutting-edge research, and practical guides on defining and collecting rewards to build more intelligent and aligned AI agents.",
